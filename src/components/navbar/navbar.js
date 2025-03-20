@@ -15,7 +15,7 @@ class Navbar extends HTMLElement {
         // Get props from attributes
         const bgcolor = this.getAttribute("bgcolor") || "#333";
         const textcolor = this.getAttribute("textcolor") || "white";
-        const logoText = this.getAttribute("logo") || "Sato"; // User-defined logo text
+        const logoText = this.getAttribute("logo") || "Navbar"; // User-defined logo text
         const links = this.getAttribute("links")
             ? JSON.parse(this.getAttribute("links"))
             : [
